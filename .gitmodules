@@ -1,0 +1,3 @@
+[submodule "my_ooumph_design"]
+	path = my_ooumph_design
+	url = https://github.com/akhileshbhagat25/MyOoumph_Project.git
