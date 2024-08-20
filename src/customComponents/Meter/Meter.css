@@ -1,0 +1,78 @@
+@media (min-width: 1200px) {
+  .meter-container {
+    position: relative; 
+    width: 100px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .meter-text {
+    margin-bottom: 8px; 
+    text-align: center;
+  }
+
+  .meter-dots {
+    position: relative;
+    width: 80px;
+    height: 50px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+  }
+
+  .dot1 {
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .dot2 {
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+
+  .dot3 {
+    top: 50%;
+    left: 100%;
+    transform: translate(-50%, -50%);
+  }
+
+  .dot4 {
+    top: 20%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+  }
+
+  .dot5 {
+    top: 50%;
+    left: 0%;
+    transform: translate(-50%, -50%);
+  }
+
+  .dot6 {
+    top: 95%;
+    left: -9%;
+    transform: translate(-50%, -50%);
+  }
+
+  .dot7 {
+    top: 95%;
+    left: 110%;
+    transform: translate(-50%, -50%);
+  }
+
+  .meter-value {
+    margin-top: 30px !important;
+  }
+}
