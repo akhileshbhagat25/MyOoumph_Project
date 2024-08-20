@@ -27,7 +27,7 @@ export default function HomePageSlider() {
   };
 
   return (
-    <Box sx={{ display: "flex", justifyContent: "space-between", width: 900, ml: "22rem",mt:10 }}>
+    <Box sx={{ display: "flex", justifyContent: "space-between", width: 900, ml:{xl:"22rem",lg:"22rem",md:"22rem",xs:"0px"},mt:10 }}>
       <Fab
         variant="extended"
         aria-label="send-vibes"

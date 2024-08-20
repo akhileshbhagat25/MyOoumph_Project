@@ -8,12 +8,14 @@ export default function HomeStatus() {
     <React.Fragment>
       <Box 
         sx={{ 
-          ml: "18.8rem", 
+          ml: { xs: "0", lg: "18.8rem" }, 
           mt: 5, 
           display: "flex", 
           flexDirection: "row", 
-          flexWrap: "wrap", 
+          flexWrap: { xs: "nowrap", lg: "wrap" }, 
           gap: 2, 
+          overflowX: { xs: "scroll", lg: "unset" },
+          width: { xs: "100%", lg: "auto" },
         }}
       >
         <Chips label="Sexy" imageSrc={girl} showIcon={true} />

@@ -52,7 +52,7 @@ const Testings = () => {
   ];
 
   return (
-    <Box className="container" sx={{ mt: 2, ml: "18.8rem" }}>
+    <Box className="container" sx={{ mt: 2, ml:{xl:"18.8rem",lg:"18.8rem",sm:"18.8rem",xs:"0px"} }}>
       <div className="custom-chips">
         {chipData.map((chip, index) => (
           <Chip
